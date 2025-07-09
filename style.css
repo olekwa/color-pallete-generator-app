@@ -114,6 +114,16 @@ h1::after{
   color: #327fcc;
 }
 
+.fade-rage-btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2.5rem;
+}
+.fade-new{
+  background-color: #327fcc;
+}
+
 @media(max-width: 768px) {
   .palette-container{
      grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
